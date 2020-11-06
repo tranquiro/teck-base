@@ -1,0 +1,48 @@
+.container{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr ;
+    margin-top: 6%;
+    margin-bottom: 50px;
+}
+header{
+    background-color: aqua;
+}
+h1{
+    font-family:serif;
+}
+.form{
+    background-color: honeydew;
+    background-image: url(back.jpg);
+    background-size: contain;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 26px 0;
+}
+footer p{
+    color: white;
+    font-size: 0.875rem;
+}
+.home{
+    background-color: antiquewhite;
+}
+.form h1{
+    color: aliceblue;
+}
+input[type="text"],
+input[type="name"]{
+    width:100%;
+    max-width: 240px;
+}
+textarea{
+    width:100%;
+    max-width: 480px;
+    height: 6rem;
+}
+input[type="submit"]{
+    border:none;
+    cursor: pointer;
+    line-height: 1;
+}
